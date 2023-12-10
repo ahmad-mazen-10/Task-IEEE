@@ -1,0 +1,47 @@
+@media (max-width: 1150px){
+    
+
+
+        form {
+        height: 90dvh;
+        width: 90%;
+        background-color: #c9c9c9;
+        border: 1px solid var(--gray-color);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        }
+
+
+
+    form button.btn{
+        background: green;
+        color: #fff;
+        padding: 15px 30px;
+        margin-top: 30px;
+        text-align: center;
+        border: none;
+        border-radius: 8px;
+        font-size: 24px;
+        font-family:  'Poppins';
+        }
+
+
+    form button.btn:hover{
+        background: #fff;
+        color: green;
+        padding: 15px 30px;
+        text-align: center;
+        border: 1px solid green;
+        border-radius: 8px;
+        font-size: 24px;
+        transition: 500ms;
+        font-family:  'Poppins';
+        }
+}
